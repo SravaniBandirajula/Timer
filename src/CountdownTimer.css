@@ -1,0 +1,40 @@
+.countdown-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .countdown-display {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .control-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .control-button.start {
+    background-color: #4caf50;
+  }
+  
+  .control-button.stop {
+    background-color: #ff3333;
+  }
+  
+  .control-button.reset {
+    background-color: #337ab7;
+  }
+  
+  .edit-input {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+  }
